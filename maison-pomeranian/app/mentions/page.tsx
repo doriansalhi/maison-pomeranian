@@ -100,8 +100,7 @@ export default function MentionsPage() {
                 
                   href="mailto:maison-pomeranian@outlook.fr"
                   className="underline hover:text-terre transition-colors"
-                >
-                  maison-pomeranian@outlook.fr
+                  {">"} maison-pomeranian@outlook.fr
                 </a>
               </p>
               <p>Directeur de la publication : Salhi</p>
@@ -120,13 +119,14 @@ export default function MentionsPage() {
               <p>340 S Lemon Ave #4133, Walnut, CA 91789, USA</p>
               <p>
                 
-                  href="https://vercel.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline hover:text-terre transition-colors"
-                >
-                  https://vercel.com
-                </a>
+              <a
+  href="https://vercel.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="underline hover:text-terre transition-colors"
+>
+  https://vercel.com
+</a>
               </p>
             </address>
           </section>
@@ -163,9 +163,8 @@ export default function MentionsPage() {
               
                 href="mailto:maison-pomeranian@outlook.fr"
                 className="underline hover:text-terre transition-colors"
-              >
-                maison-pomeranian@outlook.fr
-              </a>
+                {">"} maison-pomeranian@outlook.fr              
+                </a>
               .
             </p>
           </section>
