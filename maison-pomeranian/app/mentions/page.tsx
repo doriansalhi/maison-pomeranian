@@ -97,10 +97,11 @@ export default function MentionsPage() {
               <p>SIRET : en cours d&apos;immatriculation</p>
               <p>
                 Email :{' '}
-                
+                <a
                   href="mailto:maison-pomeranian@outlook.fr"
                   className="underline hover:text-terre transition-colors"
-                  {">"} maison-pomeranian@outlook.fr
+                >
+                  maison-pomeranian@outlook.fr
                 </a>
               </p>
               <p>Directeur de la publication : Salhi</p>
@@ -118,15 +119,14 @@ export default function MentionsPage() {
               <p>Vercel Inc.</p>
               <p>340 S Lemon Ave #4133, Walnut, CA 91789, USA</p>
               <p>
-                
-              <a
-  href="https://vercel.com"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="underline hover:text-terre transition-colors"
->
-  https://vercel.com
-</a>
+                <a
+                  href="https://vercel.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-terre transition-colors"
+                >
+                  https://vercel.com
+                </a>
               </p>
             </address>
           </section>
@@ -160,11 +160,12 @@ export default function MentionsPage() {
               (RGPD — Règlement UE 2016/679). Vous disposez d&apos;un droit
               d&apos;accès, de rectification, de suppression et
               d&apos;opposition. Pour exercer ces droits, contactez-nous à{' '}
-              
+              <a
                 href="mailto:maison-pomeranian@outlook.fr"
                 className="underline hover:text-terre transition-colors"
-                {">"} maison-pomeranian@outlook.fr              
-                </a>
+              >
+                maison-pomeranian@outlook.fr
+              </a>
               .
             </p>
           </section>
