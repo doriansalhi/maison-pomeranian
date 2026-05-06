@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /le-cercle/
+Disallow: /sign-in/
+Disallow: /sign-up/
+Disallow: /commande/
+
+Sitemap: https://maison-pomeranian.com/sitemap.xml
