@@ -37,19 +37,19 @@ export default async function CerclePage() {
             <div className="flex items-center gap-3 mb-4">
               <span className="h-px w-12 bg-or-400" />
               <span className="tech-label text-or-500 font-mono">
-                Membre · {user?.id.slice(-8).toUpperCase()}
+                Membre
               </span>
             </div>
-            <h1 className="font-serif text-5xl lg:text-7xl text-marine leading-[1.05] text-balance">
+            <h1 className="font-serif text-5xl lg:text-7xl text-marine leading-tight">
               Bienvenue,{' '}
               <em className="text-or-500 not-italic font-light">
                 {user?.firstName ?? 'cher membre'}.
               </em>
             </h1>
             <p className="text-marine/70 mt-6 max-w-2xl leading-relaxed">
-              Le Cercle est l&apos;espace prive de la Maison. Enregistrez Le
-              Profil du Loulou, suivez vos commandes, et recevez les invitations
-              aux preventes Riviera.
+              Le Cercle est l&apos;espace prive de la Maison. Enregistrez le
+              profil de votre Loulou, suivez vos commandes, et recevez les
+              invitations aux preventes Riviera.
             </p>
           </div>
 
@@ -87,13 +87,14 @@ export default async function CerclePage() {
               <Package size={28} strokeWidth={1} className="mx-auto text-peche-400 mb-4" />
               <p className="font-serif text-xl text-terre italic mb-2">Suivez vos livraisons</p>
               <p className="text-terre/60 text-sm max-w-sm mx-auto mb-6">
-                Consultez l&apos;historique de vos commandes et suivez vos livraisons en temps reel.
+                Consultez l&apos;historique de vos commandes et suivez vos livraisons.
               </p>
               <Link
                 href="/le-cercle/commandes"
                 className="inline-flex items-center gap-2 soft-label text-orose-500 transition-all duration-500 ease-in-out hover:gap-3"
               >
-                Acceder a mes commandes <ChevronRight size={12} strokeWidth={1.5} />
+                Acceder a mes commandes
+                <ChevronRight size={12} strokeWidth={1.5} />
               </Link>
             </div>
           </section>
