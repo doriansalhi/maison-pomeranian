@@ -88,7 +88,7 @@ export default async function CollectionPage({ params }: Props) {
             name: product.name,
             description: product.description ?? undefined,
             url: `https://maison-pomeranian.com/produits/${product.slug ?? product.id}`,
-            image: product.image ?? undefined,
+            image: product.images ?? undefined,
             brand: { '@type': 'Brand', name: 'Maison Pomeranian' },
             ...(product.price && {
               offers: {
