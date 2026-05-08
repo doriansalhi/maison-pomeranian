@@ -34,6 +34,10 @@ export const metadata: Metadata = {
     siteName: 'Maison Pomeranian',
   },
   twitter: { card: 'summary_large_image' },
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
