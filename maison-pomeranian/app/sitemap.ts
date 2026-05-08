@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: base, lastModified: now, changeFrequency: 'weekly', priority: 1 },
     { url: `${base}/collections`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/collections/soins-cosmetiques`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${base}/collections/art-de-vivre`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/heritage`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/journal`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
