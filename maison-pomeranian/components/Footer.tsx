@@ -24,6 +24,7 @@ const FOOTER_COLUMNS = [
       ['Retours', '/retours'],
       ['CGV', '/cgv'],
       ['Mentions légales', '/mentions'],
+      ['FAQ', '/faq'],
     ],
   },
 ] as const;
