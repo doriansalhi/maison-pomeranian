@@ -8,7 +8,7 @@ const HERO_IMAGE = 'https://res.cloudinary.com/dci5mreqo/image/upload/v177737957
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[100svh] flex items-center pt-24 pb-16 overflow-hidden bg-creme">
+    <section className="relative min-h-[100svh] flex items-center pt-36 pb-16 overflow-hidden bg-creme">
       <div className="absolute inset-0 bg-gradient-warm-glow pointer-events-none" />
       <div
         className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full opacity-40 pointer-events-none"
