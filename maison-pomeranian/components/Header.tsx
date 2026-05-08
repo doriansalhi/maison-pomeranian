@@ -42,13 +42,7 @@ export default function Header() {
             <div className="max-w-7xl mx-auto px-6 py-2.5 flex items-center justify-between gap-4">
               <div className="flex-1 text-center">
                 <span className="soft-label text-[0.65rem] text-pur/80">
-                  ✦ Offre Fondateurs — Les 50 premières commandes bénéficient de{' '}
-                </span>
-                <span className="soft-label text-[0.65rem] text-peche-300 font-medium">
-                  -15% avec le code FONDATEUR15
-                </span>
-                <span className="soft-label text-[0.65rem] text-pur/80">
-                  {' '}· Livraison prioritaire ✦
+                  -15% jusqu'au 1er Juin avec le code MAI ✦
                 </span>
               </div>
               <button
