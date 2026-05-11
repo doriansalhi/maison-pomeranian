@@ -20,15 +20,26 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://maison-pomeranian.com'),
   title: {
-    default: "Maison Pomeranian — Avec amour pour votre Spitz",
+    default: 'Maison Pomeranian — Accessoires & Soins Pomeranian | Saint-Tropez',
     template: '%s · Maison Pomeranian',
   },
   description:
-    "Boutique tendresse pour Pomeranians. Deux collections d'exception, conçues avec amour à Saint-Tropez.",
+    "Boutique spécialisée accessoires et soins pour Pomeranian et Spitz nain. Collections exclusives conçues avec amour à Saint-Tropez. Livraison offerte en France.",
+  keywords: [
+    'soins Pomeranian',
+    'soins Spitz',
+    'accessoires Pomeranian',
+    'accessoires Spitz',
+    'boutique Pomeranian',
+    'soins Spitz nain',
+    'accessoires Spitz nain',
+    'soins pelage Pomeranian',
+    'boutique chien France',
+  ],
   openGraph: {
-    title: "Maison Pomeranian — Avec amour pour votre Spitz",
+    title: 'Maison Pomeranian — Accessoires & Soins Pomeranian',
     description:
-      "Boutique tendresse pour Pomeranians. Saint-Tropez.",
+      "Boutique spécialisée accessoires et soins pour Pomeranian et Spitz nain. Collections exclusives conçues avec amour à Saint-Tropez.",
     type: 'website',
     locale: 'fr_FR',
     siteName: 'Maison Pomeranian',
@@ -70,4 +81,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </ClerkProvider>
   );
 }
-
