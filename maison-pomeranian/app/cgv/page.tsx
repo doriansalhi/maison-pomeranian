@@ -4,6 +4,7 @@ export const metadata = {
   title: 'CGV — Conditions Générales de Vente | Maison Pomeranian',
   description:
     'Conditions générales de vente de Maison Pomeranian — boutique d\'accessoires et soins Pomeranian. Paiement sécurisé, livraison offerte, retours 30 jours.',
+  alternates: { canonical: 'https://maison-pomeranian.com/cgv' },
   openGraph: {
     title: 'CGV — Maison Pomeranian',
     description:

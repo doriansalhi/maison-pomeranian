@@ -7,6 +7,7 @@ export const metadata = {
   title: 'Livraison — Maison Pomeranian | Accessoires & Soins Pomeranian',
   description:
     'Livraison offerte en France pour vos commandes d\'accessoires et soins Pomeranian. Expédition soignée, emballage éco-responsable, livraison internationale disponible.',
+  alternates: { canonical: 'https://maison-pomeranian.com/livraison' },
   openGraph: {
     title: 'Livraison — Maison Pomeranian',
     description:
