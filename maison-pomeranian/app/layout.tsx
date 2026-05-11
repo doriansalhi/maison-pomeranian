@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { ClerkProvider } from '@clerk/nextjs';
 import { Cormorant_Garamond, Inter } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 
 const cormorant = Cormorant_Garamond({
@@ -74,6 +75,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         lang="fr"
         className={`${cormorant.variable} ${inter.variable}`}
       >
+        <head>
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-J7D1RM9520"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-J7D1RM9520');
+            `}
+          </Script>
+        </head>
         <body className="bg-creme text-terre antialiased font-sans">
           {children}
         </body>
