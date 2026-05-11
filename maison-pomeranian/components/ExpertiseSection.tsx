@@ -73,7 +73,7 @@ export default function ExpertiseSection() {
             <div className="space-y-6 text-ivoire/70 leading-relaxed">
               <p>
                 Maison Pomeranian est née d&apos;une rencontre, celle d&apos;un
-                Spitz nain nommé Daysi{' '}
+                Spitz nain nommé daisy{' '}
                 et d&apos;années de recherche en ingénierie textile sur la Côte
                 d&apos;Azur.
               </p>

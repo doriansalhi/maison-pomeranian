@@ -19,7 +19,7 @@ export const metadata = {
         url: 'https://res.cloudinary.com/dci5mreqo/image/upload/v1777645521/IMG_0768_x7yczd.jpg',
         width: 1200,
         height: 630,
-        alt: 'Daysi, Spitz nain de Maison Pomeranian — Saint-Tropez',
+        alt: 'Daisy, Spitz nain de Maison Pomeranian — Saint-Tropez',
       },
     ],
   },
@@ -115,7 +115,7 @@ export default function HeritagePage() {
               <div className="relative aspect-[16/9] rounded-cloud overflow-hidden shadow-2xl ring-1 ring-peche-200/40 transform transition-all duration-700 hover:scale-[1.01]">
                 <Image
                   src="https://res.cloudinary.com/dci5mreqo/image/upload/v1777645521/IMG_0768_x7yczd.jpg"
-                  alt="Daysi, Spitz nain fondatrice de Maison Pomeranian à Saint-Tropez"
+                  alt="daisy, Spitz nain fondatrice de Maison Pomeranian à Saint-Tropez"
                   fill
                   priority
                   quality={95}
@@ -130,7 +130,7 @@ export default function HeritagePage() {
                     Notre Spitz nain
                   </div>
                   <div className="font-serif text-base text-terre mt-0.5 italic">
-                    Daysi
+                    daisy
                   </div>
                 </div>
               </div>
@@ -145,10 +145,10 @@ export default function HeritagePage() {
                 Tout a commencé par une rencontre.
               </h2>
               <p className="text-terre/80 leading-relaxed text-lg">
-                On dit souvent que ce n'est pas nous qui choisissons notre chien, mais que c'est lui qui nous trouve. Pour moi, ce fut une évidence le jour où <strong>Daysi</strong>, mon <strong>Spitz nain</strong>, est entrée dans ma vie.
+                On dit souvent que ce n'est pas nous qui choisissons notre chien, mais que c'est lui qui nous trouve. Pour moi, ce fut une évidence le jour où <strong>daisy</strong>, mon <strong>Spitz nain</strong>, est entrée dans ma vie.
               </p>
               <p className="text-terre/70 leading-relaxed">
-                L'idée de cette maison est née d'un constat simple, presque frustrant : je voulais le meilleur pour elle, mais je me perdais dans une offre générique qui ne respectait pas les spécificités de sa race. Entre son <strong>pelage si délicat</strong>, sa morphologie particulière et son tempérament de feu, Daysi méritait une attention sur-mesure. C'est ainsi qu'est né ce projet : créer un univers dédié exclusivement aux <strong>soins Pomeranian</strong> et aux <strong>accessoires Spitz nain</strong>, à la hauteur de leur élégance naturelle.
+                L'idée de cette maison est née d'un constat simple, presque frustrant : je voulais le meilleur pour elle, mais je me perdais dans une offre générique qui ne respectait pas les spécificités de sa race. Entre son <strong>pelage si délicat</strong>, sa morphologie particulière et son tempérament de feu, daisy méritait une attention sur-mesure. C'est ainsi qu'est né ce projet : créer un univers dédié exclusivement aux <strong>soins Pomeranian</strong> et aux <strong>accessoires Spitz nain</strong>, à la hauteur de leur élégance naturelle.
               </p>
             </article>
           </ScrollReveal>
@@ -170,7 +170,7 @@ export default function HeritagePage() {
                 Saint-Tropez, l&apos;art de vivre.
               </h2>
               <p className="text-terre/80 leading-relaxed text-lg">
-                Si l'idée de cette maison est née de ma rencontre avec Daysi, son esprit, lui, puise sa source dans l'art de vivre tropézien. <strong>Saint-Tropez</strong>, c'est cette lumière unique qui fait briller le <strong>pelage des Spitz</strong> comme nulle part ailleurs. C'est un mélange audacieux entre le charme authentique des ruelles provençales et le glamour de la Riviera. C'est cet équilibre que j'ai voulu insuffler à ma boutique de <strong>soins et accessoires Pomeranian</strong>.
+                Si l'idée de cette maison est née de ma rencontre avec daisy, son esprit, lui, puise sa source dans l'art de vivre tropézien. <strong>Saint-Tropez</strong>, c'est cette lumière unique qui fait briller le <strong>pelage des Spitz</strong> comme nulle part ailleurs. C'est un mélange audacieux entre le charme authentique des ruelles provençales et le glamour de la Riviera. C'est cet équilibre que j'ai voulu insuffler à ma boutique de <strong>soins et accessoires Pomeranian</strong>.
               </p>
             </article>
           </ScrollReveal>
@@ -180,7 +180,7 @@ export default function HeritagePage() {
               {[
                 ['✦', 'Made in France', 'Tous nos produits, conçus et fabriqués dans nos ateliers en France.'],
                 ['✦', 'Matières naturelles', "Nos soins sont formulés pour respecter l'équilibre délicat de la peau et du double poil du Pomeranian, sans jamais l'agresser."],
-                ['✦', 'Testé avec amour', 'Chaque pièce est testée par Daysi avant de rejoindre la collection.'],
+                ['✦', 'Testé avec amour', 'Chaque pièce est testée par daisy avant de rejoindre la collection.'],
               ].map(([icon, title, desc]) => (
                 <div
                   key={title}

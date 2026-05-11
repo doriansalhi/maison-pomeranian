@@ -134,12 +134,7 @@ export default function ContactForm() {
                 />
               </label>
 
-              {status === 'error' && (
-                <div className="text-sm text-red-700 bg-red-50/70 p-3 rounded-soft">
-                  Une erreur est survenue. Réessayez ou écrivez-nous
-                  directement à maison-pomeranian@outlook.fr
-                </div>
-              )}
+              
 
               <button
                 type="submit"
