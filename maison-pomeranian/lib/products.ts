@@ -30,7 +30,3 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
   };
 }
-
-export default function ProductLayout({ children, params }: Props) {
-  return <>{children}</>;
-}
